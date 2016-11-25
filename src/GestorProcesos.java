@@ -151,7 +151,7 @@ public class GestorProcesos {
         do {
             try {
                 
-                System.out.print("\n Elija una Opción \n Configuración Inicial (I)\n Registrar (R)\n Modificar(M)\n Listar (L)\n Menú Principal (P):");
+                System.out.print("\n Elija su opción \n Configuración Inicial (I)\n Registrar (R)\n Modificar(M)\n Listar (L)\n Menú Principal (P):");
                 input = kbd.next();
                 input = input.toUpperCase();
                 opcionesSubMenuConfiguracion opcion = opcionesSubMenuConfiguracion.valueOf(input);
