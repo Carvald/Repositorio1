@@ -33,7 +33,7 @@ public class CoreBancarioCall {
         String sRpta = ""; 
 
         try {
-            String c = "/QSYS.LIB/BANUSRLIB.LIB/TRCFGSOC.PGM";
+            String c = "";
             AS400Text txtCuenta = new AS400Text(4000);
             ProgramParameter[] parmList = new ProgramParameter[1];
             parmList[0] = new ProgramParameter(txtCuenta.toBytes(pTrama), 20);
